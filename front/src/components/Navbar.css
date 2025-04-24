@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c2c2c; /* Cor escura */
+  color: white;
+  padding: 10px 30px;
+}
+
+.navbar-left h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.navbar-left span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.navbar-left p {
+  margin: 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.navbar-right a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
